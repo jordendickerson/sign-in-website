@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./scripts/bootstrap.js" defer></script>
+  </head>
+  <body>
+    <div class="sign-up-form-wrapper">
+        <!-- LEFT COLUMN -->
+      <div class="left-column">
+        <div class="bg-image">
+          <img
+            src="./assets/imgs/pexels-yuliia-tretynychenko-12498564.jpg"
+            alt="flowers"
+          />
+        </div>
+        <div class="banner">
+          <div class="logo">
+            <img src="./assets/imgs/odin-lined.png" alt="Odin Project Logo" />
+          </div>
+          <div class="text">ODIN</div>
+        </div>
+
+        <div class="caption">
+          Photo by Yuliia Tretynychenko on
+          <a
+            href="https://www.pexels.com/photo/pink-flowers-with-green-leaves-12498564/"
+            >Pexels</a
+          >
+        </div>
+      </div>
+      <!-- RIGHT COLUMN -->
+      <div class="right-column">
+        <!-- TOP SECTION -->
+        <div class="top-section">
+          <div class="paragraph">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <em>now</em> to get started.
+          </div>
+          <div class="paragraph">You <em>know</em> you want to.</div>
+        </div>
+        <!-- MIDDLE SECTION -->
+        <div class="middle-section">
+          <div class="title">Let's do this!</div>
+          <div class="form-wrapper">
+            <!-- FORM -->
+            <form action="https://httpbin.org/" method="post">
+              <div class="row">
+                <div class="input-label-wrapper">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname">
+                </div>
+                <div class="input-label-wrapper">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-label-wrapper">
+                    <label for="email">Email</label>
+                    <input type="text" name="email">
+                </div>
+                <div class="input-label-wrapper">
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-label-wrapper">
+                    <label for="password">Password</label>
+                    <input type="text" name="password">
+                </div>
+                <div class="input-label-wrapper">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="text" name="confirm-password">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- BOTTOM SECTION -->
+        <div class="bottom-section">
+            <div class="create-account-button">
+                <button>Create Account</button>
+            </div>
+            <div class="log-in-wrapper">
+                Already have an account? <a href="#">Log in</a>
+            </div>
+            
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
